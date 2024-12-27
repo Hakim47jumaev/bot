@@ -5,7 +5,7 @@ import os
 import requests
  
 
-bot = telebot.TeleBot('7765971484:AAEASxQWVekE36g9C9-GJXGA5RRya3iq1g8')
+bot = telebot.TeleBot('')
 
 telebot.apihelper.SESSION = requests.Session()
 telebot.apihelper.SESSION.timeout = 1201
